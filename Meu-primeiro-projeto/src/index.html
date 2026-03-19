@@ -1,35 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Primeiro Tailwindcss</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body class="bg-orange-300">
-       <h1 class="text-3xl font-bold underline text-blue-500">Hello world!</h1>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-orange-300">
+    <h1 class="text-3xl font-bold underline text-blue-500">Hello world!</h1>
     <h1 class="text-3xl font-bold text-blue-500">Teste Tailwind</h1>
     <h1 class="text-red-500">Teste novo</h1>
-    <h1 class="text-sm text-gray-500 tracking-wider" >Texto</h1>
+    <h1 class="text-sm text-gray-500 tracking-wider">Texto</h1>
     <h1 class="text-xl tracking-wider">texto</h1>
     <h1 class="text-lg text-gray-100">texto</h1>
     <h1 class="text-lg font-black">texto kkk</h1>
-    <p class="text-center tracking-widest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vero architecto voluptatum nesciunt sapiente quia enim harum quo dicta dolores nihil rem atque tempora, dolore ducimus rerum nulla et deserunt.</p>
+    <p class="text-center tracking-widest">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vero
+      architecto voluptatum nesciunt sapiente quia enim harum quo dicta dolores
+      nihil rem atque tempora, dolore ducimus rerum nulla et deserunt.
+    </p>
 
-    <div class="p-4 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias facere, pariatur nostrum vel earum laboriosam repudiandae mollitia accusamus, at dolore minus itaque corrupti maxime. Asperiores dolorem perspiciatis illo nam eos.</div>
-<!-- Espaçamento -->
+    <div class="p-4 mt-4">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias facere,
+      pariatur nostrum vel earum laboriosam repudiandae mollitia accusamus, at
+      dolore minus itaque corrupti maxime. Asperiores dolorem perspiciatis illo
+      nam eos.
+    </div>
+    <!-- Espaçamento -->
     <div class="m-7 space-x-7">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
     </div>
 
-<!-- Bordas -->
-  <div class="m-5 border-2 p-4 border-red-400 rounded-lg">
-   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt rem, quaerat reprehenderit ipsa officia iste esse aliquam amet perspiciatis earum sint nam vero ducimus quibusdam repellendus, dicta nobis nihil consequuntur?
-   <button class="bg-blue-400 px-4 py-1 rounded text-white hover:ring-2">salve</button>
-  </div>
-  <!-- Background -->
-   <div class="w-1/2 m-5 border-2 p-4 borde-red-400 text-white rounded-lg bg-blue-200 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam praesentium reprehenderit, totam possimus explicabo ducimus quae culpa eius, ad quod incidunt aut, laboriosam facere at? Laudantium perspiciatis fugit dolorum.</div>
-</body>
+    <!-- Bordas -->
+    <div class="m-5 border-2 p-4 border-red-400 rounded-lg">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt rem,
+      quaerat reprehenderit ipsa officia iste esse aliquam amet perspiciatis
+      earum sint nam vero ducimus quibusdam repellendus, dicta nobis nihil
+      consequuntur?
+      <button class="bg-blue-400 px-4 py-1 rounded text-white hover:ring-2">
+        salve
+      </button>
+    </div>
+    <!-- Background -->
+    <div
+      class="w-1/2 m-5 border-2 p-4 borde-red-400 text-white rounded-lg bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam
+      praesentium reprehenderit, totam possimus explicabo ducimus quae culpa
+      eius, ad quod incidunt aut, laboriosam facere at? Laudantium perspiciatis
+      fugit dolorum.
+    </div>
+
+    <div class="flex justify-center space-x-4 bg-gray-300 h-36">
+      <div
+        class="w-24 m-4 h-24 border-2 p-4 borde-red-400 text-white rounded-lg bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500"
+      ></div>
+      <div
+        class=" flex-grow flex-shrink-0 w-24 h-24 m-4 border-2 p-4 borde-red-400 text-white rounded-lg bg-gradient-to-tl from-yellow-400 via-red-500 to-pink-500"
+      ></div>
+      <div
+        class="w-24 m-4 h-24 border-2 p-4 borde-red-400 text-white rounded-lg bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500"
+      ></div>
+
+    </div>
+    <br>
+       <div class="flex justify-center space-x-4 bg-gray-300 h-36">
+      <div
+        class="w-24 m-4 h-24 border-2 p-4 borde-red-400 text-white rounded-lg bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500"
+      ></div>
+      <div
+        class="w-24 h-24 m-4 border-2 p-4 borde-red-400 text-white rounded-lg bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500"
+      ></div>
+      <div
+        class="w-24 m-4 h-24 border-2 p-4 borde-red-400 text-white rounded-lg bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500"
+      ></div>
+  </body>
 </html>
